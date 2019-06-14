@@ -3,9 +3,36 @@
   "version": "0.1.0",
   "author": "falconpilot",
   "license": "ISC",
+  "scripts": {
+    "dev": "dotenv webpack-dev-server"
+  },
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
+    "connected-react-router": "^6.4.0",
+    "emotion-theming": "^10.0.10",
     "markdown-react-js": "^1.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.13",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "dotenv-cli": "^2.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-dev-server": "^3.7.1"
   }
 }
