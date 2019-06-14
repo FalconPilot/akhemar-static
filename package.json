@@ -1,0 +1,11 @@
+{
+  "name": "akhemar-static",
+  "version": "0.1.0",
+  "author": "falconpilot",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-react-js": "^1.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
