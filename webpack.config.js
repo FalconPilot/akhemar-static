@@ -10,7 +10,6 @@ const ENV = process.env.NODE_ENV === 'development'
 
 module.exports = {
   mode: ENV,
-  devtool: 'source-map',
   entry: {
     main: path.join(__dirname, 'src', 'index.js')
   },
@@ -21,7 +20,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'src', 'index.html'),
+      template: path.join(__dirname, 'src', 'static', 'index.html'),
       inject: 'body'
     }),
     new webpack.HotModuleReplacementPlugin(),
@@ -41,7 +40,7 @@ module.exports = {
         'css-loader'
       ]
     }, {
-      test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
+      test: /\.(jpe?g|png|gif|mp3|svg|md)$/,
       use: ['file-loader']
     }]
   },
