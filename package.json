@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "author": "falconpilot",
   "license": "ISC",
+  "engines": {
+    "node": "12.8.0",
+    "yarn": "1.17.3"
+  },
   "scripts": {
     "dev": "dotenv webpack-dev-server"
   },

@@ -53,6 +53,7 @@ const GamePage = ({ game, ...props }) => console.log(game) || (
         {game.categories.map(renderCategory)}
       </SideMenu>
       <ContentWrapper>
+        TODO
       </ContentWrapper>
     </FlexRow>
   </GamePageWrapper>
