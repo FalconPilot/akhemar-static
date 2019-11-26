@@ -1,3 +1,0 @@
-# Akhemar
-
-— TODO : Intro Akhemar
